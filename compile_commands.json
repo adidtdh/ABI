@@ -1,0 +1,56 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "include",
+      "-I",
+      "libs/AdiLinkedList/include",
+      "-o",
+      "bin/tests",
+      "tests.c"
+    ],
+    "directory": "/home/adi/adi_programmer/ABI",
+    "file": "/home/adi/adi_programmer/ABI/tests.c",
+    "output": "/home/adi/adi_programmer/ABI/bin/tests"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "include",
+      "-I",
+      "libs/AdiLinkedList/include",
+      "-o",
+      "bin/tests",
+      "src/ABI.c"
+    ],
+    "directory": "/home/adi/adi_programmer/ABI",
+    "file": "/home/adi/adi_programmer/ABI/src/ABI.c",
+    "output": "/home/adi/adi_programmer/ABI/bin/tests"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "include",
+      "-I",
+      "libs/AdiLinkedList/include",
+      "-o",
+      "bin/tests",
+      "libs/AdiLinkedList/src/AdiLinkedList.c"
+    ],
+    "directory": "/home/adi/adi_programmer/ABI",
+    "file": "/home/adi/adi_programmer/ABI/libs/AdiLinkedList/src/AdiLinkedList.c",
+    "output": "/home/adi/adi_programmer/ABI/bin/tests"
+  }
+]
